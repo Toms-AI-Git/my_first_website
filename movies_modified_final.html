@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="centered-content">
+    <h1>TomsAI website</h1>
+    <p class="indented-text">my AI-journey:</p>
+</div>
+
+<!-- One line of distance (adjusting for the natural margin of paragraphs) -->
+<br>
+
+<!-- First line -->
+<p class="journal-entry">On Dec. 31. 2022 I had the first contact with OpenAIs ChatGPT at a new years party. The 17 year old boy of the family showed it to us.</p>
+
+<!-- New entry -->
+<p class="journal-entry">I was completely hooked right away. My head was spinning, realizing what kind of technology that was and it might mean for our future.</p>
+
+<!-- New entry -->
+<p class="journal-entry">Some days later, after checking it out, I phoned my friends telling them about "it" and strongly suggested, that they should give it a look.</p>
+
+<!-- New entry -->
+<p class="journal-entry">The first steps: trying to get to know the system, f.e. by asking it for advice how it wanted to be prompted = kind of "meta communication".</p>
+
+<!-- New entry -->
+<p class="journal-entry">At a very early stage I discovered "role prompting" - I watched it discuss topics in the role of "different aged persons" or politicians.</p>
+
+<!-- New entry -->
+<p class="journal-entry">As soon as possible I went for the PLUS-version, in order to gain access whenever I wanted and I wanted quite often. Never had any regret.</p>
+
+<!-- New entry -->
+<p class="journal-entry">Using the AI as a programming tool was of early interest as me not being a coder: Starting with my Arduino trying out automotive solutions.</p>
+
+<!-- New entry -->
+<p class="journal-entry">I spent a fairly amount of time watching the new market of interest, knowledge and ideas including different LLMs and local solutions.</p>
+
+<!-- New entry -->
+<p class="journal-entry">By using several extensions in the "pre plugin era", ChatGPT could be enhanced f.e. to browse the web - not really well at that early state.</p>
+
+<!-- New entry -->
+<p class="journal-entry">The introduction of Bing chat was a milestone. Been there from the beginning. First version was kind of odd to me- reacting kind of strange.</p>
+
+<!-- New entry -->
+<p class="journal-entry">Always being interested in psychological themes and conversations, I tried out lots of approaches in fields of human nature and philosophie.</p>
+
+<!-- New entry -->
+<p class="journal-entry">P.I. is VERY special in that sense. Obviously specially developed to offer a very "human like" conversation experience, we talked about a lot.</p>
+
+<!-- New entry -->
+<p class="journal-entry">I got more and more interested in knowledge acquisition with the help of AI - f.e. summarizing YT-transcripts before watching the video.</p>
+
+<!-- New entry -->
+<p class="journal-entry">Next ChatGPT milestone - introducing plugins. f.e. videoinsight (see above...) lots of interesting stuff but some rubbish as well...?!?</p>
+
+<!-- New entry -->
+<p class="journal-entry">Got my first OpenAi API. Proud moment to venture into new territory. Very special moment to use my secret API-key for the first time.</p>
+
+<!-- New entry -->
+<p class="journal-entry">First versions of "GPT-Agents" and GPT4ALL with beta PDF-reader to include individual data-base knowledge - interesting and future topic.</p>
+
+<!-- New entry -->
+<p class="journal-entry">Tried out non-coding chatbot creation like Flowise. Automation solution like "bardeen", impressive data-analysis tool like "noteable" plugin.</p>
+
+<!-- New entry -->
+<p class="journal-entry">"code-interpreter" another ChatGPT milestone changed the AI world - at least for me. Even more ~programming~: Python, SQL, JSON, HTML, JS, CSS.</p>
+
+<!-- New entry -->
+<p class="journal-entry">Developed lots of small but very meaningful and practical tools to convert file-types, creating files and transcripts, voice to text and much more.</p>
+
+<!-- New entry -->
+<p class="journal-entry">Checked out Claude 2 as well. Great to discuss big PDF-files. Even better than ChatGPT. New stuff every week at least? Hard to keep track... still like it.</p>
+
+<!-- 28 Empty lines -->
+<p class="journal-entry">&nbsp;</p>
+<!-- ... repeat this 28 times ... -->
+
+<!-- 30th line -->
+<p class="journal-entry">Aug. 27. 2023: realization of my first AI supported GitHub and website development project. Much more to come. --> please scroll down!</p>
+
+
+
+
+<!-- Space of 2 cm -->
+<br style="margin-bottom: 2cm;">
+
+<!-- New heading for the movie program -->
+<div class="movie-heading">
+    <h2>AI generated movie-search</h2>
+</div>
+<div>
+    <label>Search Movie:</label>
+    <input type="text" id="searchInput" onkeyup="searchMovie()">
+    <div id="suggestions" class="suggestions"></div>
+</div>
+
+<div>
+    <label>Overview:</label>
+    <textarea id="overview" readonly></textarea><label>Release Date:</label>
+    <input type="text" id="release_date" readonly>
+</div>
+
+<div>
+    <label>Budget:</label>
+    <input type="text" id="budget" readonly>
+</div>
+
+<div>
+    <label>Revenue:</label>
+    <input type="text" id="revenue" readonly>
+</div>
+
+<div>
+    <label>Vote Average:</label>
+    <input type="text" id="vote_average" readonly>
+</div>
+
+<div>
+    <label>Vote Count:</label>
+    <input type="text" id="vote_count" readonly>
+</div>
+
+<div>
+    
+</div>
+
+<div>
+    <label>Tagline:</label>
+    <textarea id="tagline" readonly></textarea>
+</div>
+
+<script src="movies_final_v4.js"></script>
+
+</body>
+</html>
